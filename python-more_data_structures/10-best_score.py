@@ -7,4 +7,3 @@ def best_score(a_dictionary):
     for k, v in a_dictionary.items():
         if v == b_score:
             return k
-Footer
