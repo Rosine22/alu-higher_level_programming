@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-""" function that returns the list"""
+""" define a fuction that reads text files """
 
 
-def lookup(obj):
-    """ function: lookup()
-    Returns a list object
-    """
-    return dir(obj)
+def read_file(filename=""):
+    """a fuction to read text """
+    with open(filename, 'r', encoding='UTF8') as b:
+        print(b.read(), end='')
